@@ -18,6 +18,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* full-bleed canvas sized via JS (keeps CSS size stable) */
 canvas {
   display: block;
   position: absolute;
@@ -27,6 +28,7 @@ canvas {
   z-index: 1;
 }
 
+/* UI sits on top and centers reliably */
 .ui-layer {
   position: absolute;
   left: 50%;
@@ -37,6 +39,7 @@ canvas {
   text-align: center;
   z-index: 10;
   pointer-events: none;
+  /* let canvas handle pointer unless child opts-in */
 }
 
 .message {
@@ -48,6 +51,7 @@ canvas {
   user-select: none;
 }
 
+/* Use a real button for accessibility; allow pointer events */
 .btn {
   pointer-events: auto;
   display: inline-block;
