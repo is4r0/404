@@ -1,0 +1,88 @@
+:root {
+  --bg: #0b0b0b;
+  --gold: 52, 81, 199
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  overflow: hidden;
+  font-family: 'Courier New', Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.ui-layer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: clamp(28px, 6vh, 64px);
+  max-width: 100%;
+  padding: 0 12px;
+  text-align: center;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.message {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.05rem;
+  margin: 0 0 14px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.btn {
+  pointer-events: auto;
+  display: inline-block;
+  padding: 12px 28px;
+  border: 1px solid rgba(190, 36, 36, 0.55);
+  color: rgba(199, 52, 52, 0.85);
+  background: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+  letter-spacing: 1.6px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 2px solid rgba(52, 81, 199, 0.25);
+  outline-offset: 4px
+}
+
+.btn:hover {
+  background: rgba(192, 35, 35, 0.85);
+  color: #fff;
+  box-shadow: 0 6px 30px rgba(52, 81, 199, 0.25);
+  transform: translateY(-2px);
+}
+
+@media (max-width:420px) {
+  .message {
+    font-size: 0.95rem
+  }
+
+  .btn {
+    width: 100%;
+    padding: 12px 20px
+  }
+}
