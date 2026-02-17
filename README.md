@@ -50,7 +50,7 @@
 
 ## 📁 Project Structure
 
-```
+``` 
 .
 ├── index.html          # The main HTML file defining the page structure
 ├── style.css           # Contains all the styling for the page
