@@ -1,4 +1,4 @@
-# 👻 404 - Dynamic Page Not Found
+# 👻 404 - Page Not Found
 
 <div align="center">
   
