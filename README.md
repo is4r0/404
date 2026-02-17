@@ -75,4 +75,4 @@ I welcome contributions to enhance this collection of web projects! Please consi
 
 Made with ❤️ by [is4r0](https://github.com/is4r0)
 
-</div>
+</div> 
