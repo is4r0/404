@@ -71,7 +71,7 @@ I welcome contributions to enhance this collection of web projects! Please consi
 
 <div align="center">
 
-**⭐ Star this repo if you find it helpful or inspiring!**
+**⭐ Star this repo if you find it helpful or inspiring!** 
 
 Made with ❤️ by [is4r0](https://github.com/is4r0)
 
