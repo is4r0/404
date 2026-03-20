@@ -1,11 +1,3 @@
-# 👻 404 - Page Not Found
-
-<div align="center">
-  
-## ✏️ [Live Demo](https://isar404.netlify.app/)
-
-</div>  
-
 ## ✨ Features
 
 -   **Interactive Parallax Effect:** Background elements subtly respond to mouse movement, adding depth and engagement.
